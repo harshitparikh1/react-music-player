@@ -40,7 +40,7 @@ function App() {
         return currentSongIndex + 1;
       }
     });
-  }, [currentSongIndex]);
+  }, [currentSongIndex, songs]);
 
   // To remove the console error we can use the below code but this causes infinite loop.
   // useEffect(
